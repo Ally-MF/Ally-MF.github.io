@@ -1,0 +1,163 @@
+
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.header{
+    background-color: #31708E;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+}
+
+.header h1{
+    align-self: flex-start;
+    font-weight: bold;
+    color: rgb(211, 189, 63);
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5px;
+}
+
+.header .nav{
+    display:flex;
+    list-style-type: none;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+
+a:hover{
+    color: black;
+}
+    
+a{
+    color: rgb(211, 189, 63);
+    text-decoration: none;
+    border: none;
+    margin: 10px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter; 
+}
+
+
+.story p{
+    text-align: center;
+    margin-left: 280px;
+    margin-right: 280px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+}
+
+.header2{
+    color: #3b5c32;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.first{
+    border: solid;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px; 
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.first:hover{
+    transform: scale(1.05);
+}
+
+.Second:hover{
+    transform: scale(1.05);
+}
+
+
+img{
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0.5;
+}
+
+img.projects{
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0.5;
+}
+
+h3{
+    text-align: center;
+    color: rgb(25, 80, 25);
+}
+
+.p1 , .p2, .p3{
+    text-align: center;
+    margin: 20px,10px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.Second{
+    border: solid;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul.footer-list{
+    display: flex;
+    flex-direction: row;
+    color: navy;  
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+li#info{
+    border: solid;
+    width: 33.33%;
+    margin: 20px;
+    padding: 5px;
+}
+
+.ending{
+    background-color: grey;
+    color: rgb(211, 189, 63);
+    white-space: nowrap;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    border-top: solid;
+    border-color: black;
+}
+
+.ending img{
+    opacity: 1;
+    width: 20%;
+}
+
+   
+.ending img:hover{
+    transform: scale(1.05);
+    opacity: 0.5;
+}
+
+
